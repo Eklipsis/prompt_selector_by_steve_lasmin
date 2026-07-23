@@ -15,7 +15,7 @@ authors = [
 keywords = ["comfyui", "node", "prompt", "selector", "text"]
 
 [project.urls]
-Repository = "https://github.com/stevelasmin4real/comfyui-prompt-selector"
+Repository = "https://github.com/Eklipsis/prompt-selector-by-steve-lasmin"
 Boosty = "https://boosty.to/stevelasmin"
 
 [tool.setuptools]
