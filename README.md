@@ -22,7 +22,7 @@ Search for **"Prompt Selector by Steve Lasmin"** in the ComfyUI Manager and inst
 ### Method 2: Git Clone
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/Eklipsis/comfyui-prompt-selector.git
+git clone https://github.com/Eklipsis/prompt_selector_by_steve_lasmin.git
 Restart ComfyUI.
 
 ### Method 3: Manual
