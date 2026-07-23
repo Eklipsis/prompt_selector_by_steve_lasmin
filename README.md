@@ -22,8 +22,7 @@ Search for **"Prompt Selector by Steve Lasmin"** in the ComfyUI Manager and inst
 ### Method 2: Git Clone
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/stevelasmin4real/comfyui-prompt-selector.git prompt_selector_by_steve_lasmin
-```
+git clone https://github.com/Eklipsis/comfyui-prompt-selector.git
 Restart ComfyUI.
 
 ### Method 3: Manual
@@ -38,7 +37,7 @@ Restart ComfyUI.
 1. Add the node: **Steve Lasmin → Prompt Selector by Steve Lasmin**
 2. Set **folder_path** to your prompt folder:
    - Absolute: `X:/MyPrompts` or `X:\MyPrompts`
-   - Relative to ComfyUI root: `models/LLM/prompts` (default)
+   - Relative to ComfyUI root: `models/LLM/prompts` (default, but needs full path)
 3. Click **📂 Select Prompt** to open the file browser.
 4. Pick a file — its text loads into **prompt_text**.
 5. Edit the text as needed.
