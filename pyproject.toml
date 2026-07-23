@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt-selector-by-steve-lasmin"
+version = "1.0.0"
+description = "Browse, edit, and output prompt text from .txt files without overwriting originals."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Steve Lasmin", email = "real.eclipse@gmail.com"}
+]
+keywords = ["comfyui", "node", "prompt", "selector", "text"]
+
+[project.urls]
+Repository = "https://github.com/stevelasmin4real/comfyui-prompt-selector"
+Boosty = "https://boosty.to/stevelasmin"
+
+[tool.setuptools]
+packages = ["prompt_selector_by_steve_lasmin"]
+
+[tool.comfy]
+PublisherId = "stevelasmin4real"
+DisplayName = "Prompt Selector by Steve Lasmin"
+Icon = ""
